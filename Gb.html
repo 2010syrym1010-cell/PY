@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   <form action="/submit" method="post">
+      <fieldset>
+         <legend>Войти Аккаунт:</legend>
+       <label for="text">email:</label>
+       <input type="text" id="email" name="email"
+       from action="/submit" method="post"><br>
+       <label for="text">password:</label>
+       <input type="password" id="password" name="password" required>
+       <button type="submit">Submit</button>
+       <label for="message">Message:</label>
+       <textarea id="message" name="message" rows="4" cols="50"></textarea>
+       <label for="country">Country:</label>
+      </fieldset>
+       <fieldset>
+       <select id="country" name="country" required>
+         <option value="">Select your country</option>
+         <option value="us">United States</option>
+         <option value="ca">Canada</option>
+         <option value="uk">United Kingdom</option>
+         <option value="au">Australia</option>
+         <button type="submit">Submit</button>
+         </select>
+         <button type="reset">reset</button>
+         <button type="submit">Submit</button>
+      </fieldset>
+      </form>
+      </body>
+</html>
